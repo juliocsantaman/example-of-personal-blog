@@ -1,3 +1,4 @@
+/* Variables */
 :root {
   --color-1: #082040;
   --color-2: #30698C;
@@ -7,22 +8,41 @@
   --color-6: #FFFFFF;
   --color-7: #000000;
 }
+/* End of variables */
 
+/* Styles of nav */
 nav {
   background-color: var(--color-1);
+}
+
+.navbar {
+  padding: 1em;
 }
 
 a {
   color: var(--color-6);
 }
 
+a:hover {
+  color: var(--color-3);
+}
+
+.fa-bars {
+  color: var(--color-6);
+}
+/* End of nav styles */
+
+/* Styles of main */
 main {
   background-color: var(--color-5);
 }
+/* End of main styles */
 
+/* Styles of footer */
 footer {
   background-color: var(--color-1);
   color: var(--color-6);
   padding: 1em;
   text-align: center;
 }
+/* End of footer styles */
