@@ -1,0 +1,28 @@
+:root {
+  --color-1: #082040;
+  --color-2: #30698C;
+  --color-3: #468BA6;
+  --color-4: #8FCBD9;
+  --color-5: #DCEEF2;
+  --color-6: #FFFFFF;
+  --color-7: #000000;
+}
+
+nav {
+  background-color: var(--color-1);
+}
+
+a {
+  color: var(--color-6);
+}
+
+main {
+  background-color: var(--color-5);
+}
+
+footer {
+  background-color: var(--color-1);
+  color: var(--color-6);
+  padding: 1em;
+  text-align: center;
+}
