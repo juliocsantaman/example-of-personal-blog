@@ -1,0 +1,36 @@
+/* Variables */
+:root {
+  --color-1: #082040;
+  --color-2: #30698C;
+  --color-3: #468BA6;
+  --color-4: #8FCBD9;
+  --color-5: #DCEEF2;
+  --color-6: #FFFFFF;
+  --color-7: #000000;
+  --color-8: #009688;
+}
+/* End of variables */
+
+/* Styles of h1 */
+h1 {
+  text-align: center;
+}
+/* End of h1 styles */
+
+/* Styles of the send class */
+.send {
+  background-color: var(--color-8);
+  color: var(--color-6);
+}
+
+.send:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--color-6);
+}
+/* End of the send class styles */
+
+.fa-whatsapp-square {
+  margin-top: 5%;
+  font-size: 1.5em;
+  color: #00e676;
+}
