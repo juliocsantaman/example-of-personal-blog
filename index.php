@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="./fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/index.css?v=<?php echo (rand()); ?>">
   <title>Blog Personal</title>
 </head>
+
 <body>
 
   <!-- HEADER -->
@@ -47,7 +49,41 @@
 
   <!-- MAIN -->
   <main>
-
+    <div class="container my-cards">
+      <div class="card mb-3">
+      <h5 class="card-header">Desarrollo Web</h5>
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="./images/web-page.jpg" alt="">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card mb-3">
+      <h5 class="card-header">Desarrollo Web</h5>
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="./images/web-page.jpg" alt="">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <!-- END OF MAIN -->
 
@@ -56,10 +92,11 @@
     <small>Copyright &copy; 2020 - Hecho por Julio Santaman</small>
   </footer>
   <!-- END OF FOOTER -->
-  
+
   <script src="./bootstrap/js/jquery-3.5.1.slim.min.js"></script>
   <script src="./bootstrap/js/popper.min.js"></script>
   <script src="./bootstrap/js/bootstrap.min.js"></script>
   <script src="./js/index.js"></script>
 </body>
+
 </html>
