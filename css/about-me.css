@@ -1,0 +1,23 @@
+/* Image size */
+.my-picture {
+  width: 100%;
+  height: 180px;
+  border-radius: 5px;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+/* End of image styles */
+
+main div {
+  margin-top: 2%;
+  width: 50%;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}

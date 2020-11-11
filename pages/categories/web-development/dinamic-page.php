@@ -41,7 +41,7 @@
             <a class="nav-link" href="#">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Acerca de mí</a>
+            <a class="nav-link" href="../../about-me.php">Acerca de mí</a>
           </li>
         </ul>
       </div>
