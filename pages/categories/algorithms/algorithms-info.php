@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../../fontawesome/css/all.min.css">
   <link rel="stylesheet" href="../../../css/general-styles.css?v=<?php echo (rand()); ?>">
-  <link rel="stylesheet" href="../../../css/index.css?v=<?php echo (rand()); ?>">
+  <link rel="stylesheet" href="../../../css/algorithms.css?v=<?php echo (rand()); ?>">
+  <link rel="stylesheet" href="../../../css/responsive.css?v=<?php echo (rand()); ?>">
   <title>Algoritmos</title>
 </head>
 
@@ -48,40 +49,15 @@
   <!-- END OF HEADER -->
   <!-- MAIN -->
   <main>
-    <div class="container my-cards">
-      <div class="card mb-3">
-        <h5 class="card-header">Algoritmos</h5>
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="../../../images/algorithm.png" alt="Algoritmo" title="Algoritmo">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">¿Qué es un algoritmo?</h5>
-              <p class="card-text">En matemáticas, lógica, ciencias de la computación y disciplinas relacionadas, un algoritmo ​ es un conjunto de instrucciones o reglas definidas y no-ambiguas, ordenadas y finitas...</p>
-              <a href="./algorithms-info.php" class="btn btn-primary">Leer más</a>
-              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card mb-3">
-        <h5 class="card-header">Algoritmos</h5>
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="../../../images/flowchart" alt="Diagrama de flujo" title="Diagrama de flujo">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">¿Qué es un diagrama de flujo?</h5>
-              <p class="card-text">El diagrama de flujo o flujograma o diagrama de actividades es la representación gráfica de un algoritmo o proceso...</p>
-              <a href="./flowchart.php" class="btn btn-primary">Leer más</a>
-              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-            </div>
-          </div>
-        </div>
-      </div>
+    <div>
+      <img src="../../../images/algorithm.png" alt="Algoritmo" title="Algoritmo">
+      <h3>¿Qué es un algoritmo?</h3>
+      <p>
+        En matemáticas, lógica, ciencias de la computación y disciplinas relacionadas, 
+        un algoritmo ​ es un conjunto de instrucciones o reglas definidas y no-ambiguas, ordenadas 
+        y finitas que permite, típicamente, solucionar un problema, realizar un cómputo, procesar datos 
+        y llevar a cabo otras tareas o actividades.​
+      </p>
     </div>
   </main>
   <!-- END OF MAIN -->

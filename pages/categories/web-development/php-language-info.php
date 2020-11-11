@@ -50,7 +50,7 @@
   <!-- MAIN -->
   <main>
 
-    <div class="dinamic-page">
+    <div>
       <img src="../../../images/php-language-info.jpg" alt="">
       <h3>¿Para qué sirve el lenguaje PHP?</h3>
       <p>

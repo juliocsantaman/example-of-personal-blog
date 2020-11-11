@@ -31,7 +31,7 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="./index.php">Desarrollo Web</a>
-              <a class="dropdown-item" href="#">Algoritmos</a>
+              <a class="dropdown-item" href="./pages/categories/algorithms/algorithms.php">Algoritmos</a>
             </div>
           </li>
           <li class="nav-item">

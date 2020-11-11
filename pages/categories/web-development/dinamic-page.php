@@ -52,7 +52,7 @@
   <!-- MAIN -->
   <main>
 
-    <div class="dinamic-page">
+    <div>
       <img src="../../../images/web-page.jpg" alt="">
       <h3>¿Qué es una página web dinámica?</h3>
       <p>
