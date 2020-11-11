@@ -16,21 +16,21 @@
   <header>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">Julio Santaman</a>
+      <a class="navbar-brand" href="./index.php">Julio Santaman</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./index.php">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Categorías
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Desarrollo Web</a>
+              <a class="dropdown-item" href="./index.php">Desarrollo Web</a>
               <a class="dropdown-item" href="#">Algoritmos</a>
             </div>
           </li>
@@ -53,13 +53,13 @@
         <h5 class="card-header">Desarrollo Web</h5>
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="./images/web-page.jpg" alt="">
+            <img src="./images/web-page.jpg" alt="¿Qué es una página web dinámica?" title="¿Qué es una página web dinámica?">
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">¿Qué es una página web dinámica?</h5>
+              <p class="card-text">En el contexto de Internet, y concretamente referido a la World Wide Web, contenido dinámico es aquel que se genera automáticamente en el momento que alguien solicita su visualización...</p>
+              <a href="./pages/categories/web-development/dinamic-page.php" class="btn btn-primary">Leer más</a>
               <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
             </div>
           </div>
@@ -70,13 +70,13 @@
         <h5 class="card-header">Desarrollo Web</h5>
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="./images/web-page.jpg" alt="">
+            <img src="./images/php-language-info.jpg" alt="¿Para qué sirve el lenguaje PHP?" title="¿Para qué sirve el lenguaje PHP?">
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">¿Para que sirve el lenguaje PHP?</h5>
+              <p class="card-text">PHP es un lenguaje de programación destinado a desarrollar aplicaciones para la web y crear páginas web, favoreciendo la conexión entre los servidores y la interfaz de usuario...</p>
+              <a href="./pages/categories/web-development/php-language-info.php" class="btn btn-primary">Leer más</a>
               <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
             </div>
           </div>
@@ -87,6 +87,12 @@
   <!-- END OF MAIN -->
   <!-- FOOTER -->
   <footer>
+    <a href="https://www.linkedin.com/in/juliocsantaman/"><i class="fab fa-linkedin social-network-icons" title="Linkedin"></i></a>
+    <a href="https://www.facebook.com/juliocsantaman/"><i class="fab fa-facebook social-network-icons" title="Facebook"></i></a>
+    <a href="https://twitter.com/juliocsantaman/"><i class="fab fa-twitter social-network-icons" title="Twitter"></i></a>
+    <a href="https://www.instagram.com/juliocsantaman/"><i class="fab fa-instagram social-network-icons" title="Instagram"></i></a>
+    <a href="https://www.pinterest.com.mx/juliocsantaman/"><i class="fab fa-pinterest social-network-icons" title="Pinterest"></i></a>
+    <br>
     <small>Copyright &copy; 2020 - Hecho por Julio Santaman</small>
   </footer>
   <!-- END OF FOOTER -->

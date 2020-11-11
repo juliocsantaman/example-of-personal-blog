@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="../css/general-styles.css?v=<?php echo (rand()); ?>">
-  <link rel="stylesheet" href="../css/contact.css?v=<?php echo (rand()); ?>">
-  <title>Contacto</title>
+  <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../../css/general-styles.css?v=<?php echo (rand()); ?>">
+  <link rel="stylesheet" href="../../../css/dinamic-page.css?v=<?php echo (rand()); ?>">
+  <link rel="stylesheet" href="../../../css/responsive.css?v=<?php echo (rand()); ?>">
+  <title>¿Para qué sirve el lenguaje PHP?</title>
 </head>
 
 <body>
@@ -16,22 +17,22 @@
   <header>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">Julio Santaman</a>
+      <a class="navbar-brand" href="../../../index.php">Julio Santaman</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="../../../index.php">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Categorías
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Desarrollo Web</a>
-              <a class="dropdown-item" href="#">Algoritmos</a>
+              <a class="dropdown-item" href="./dinamic-page.php">Desarrollo Web</a>
+              <a class="dropdown-item" href="../algorithms/algorithms.php">Algoritmos</a>
             </div>
           </li>
           <li class="nav-item">
@@ -46,28 +47,20 @@
     <!-- END OF NAVBAR -->
   </header>
   <!-- END OF HEADER -->
+  <!-- MAIN -->
   <main>
-    <div class="container">
-      <h1>¡Contactanos!</h1>
-      <form>
-        <div class="form-group">
-          <label for="name">Nombre</label>
-          <input type="text" class="form-control" id="name">
-        </div>
-        <div class="form-group">
-          <label for="email">Correo</label>
-          <input type="email" class="form-control" id="email">
-        </div>
-        <div class="form-group">
-          <label for="message">Mensaje</label>
-          <textarea class="form-control" id="message" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn send">Enviar</button>
-      </form>
 
-      <i class="fab fa-whatsapp-square"></i> Número celular: +52 9988902399
+    <div class="dinamic-page">
+      <img src="../../../images/php-language-info.jpg" alt="">
+      <h3>¿Para qué sirve el lenguaje PHP?</h3>
+      <p>
+        PHP es un lenguaje de programación destinado a desarrollar aplicaciones para la web y crear páginas web,
+        favoreciendo la conexión entre los servidores y la interfaz de usuario. 
+        Entre los factores que hicieron que PHP se volviera tan popular, se destaca el hecho de que es de código abierto.
+      </p>
     </div>
   </main>
+  <!-- END OF MAIN -->
   <!-- FOOTER -->
   <footer>
     <a href="https://www.linkedin.com/in/juliocsantaman/"><i class="fab fa-linkedin social-network-icons" title="Linkedin"></i></a>
@@ -79,10 +72,11 @@
     <small>Copyright &copy; 2020 - Hecho por Julio Santaman</small>
   </footer>
   <!-- END OF FOOTER -->
-  <script src="../bootstrap/js/jquery-3.5.1.slim.min.js"></script>
-  <script src="../bootstrap/js/popper.min.js"></script>
-  <script src="../bootstrap/js/bootstrap.min.js"></script>
-  <script src="../js/index.js"></script>
+  <script src="../../../bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+  <script src="../../../bootstrap/js/popper.min.js"></script>
+  <script src="../../../bootstrap/js/bootstrap.min.js"></script>
+  <script src="../../../js/index.js"></script>
+
 </body>
 
 </html>

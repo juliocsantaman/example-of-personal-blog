@@ -4,13 +4,23 @@ No media query for `xs` since this is the default in Bootstrap
 */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
+@media (min-width: 576px) {
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
+@media (min-width: 768px) {
+  /* Image size */
+  img {
+    width: 40%;
+    height: 225px;
+  }
+  /* End of image styles */
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {
+}

@@ -45,4 +45,18 @@ footer {
   padding: 1em;
   text-align: center;
 }
+
+footer small:hover {
+  color: var(--color-4);
+}
+
+footer i {
+  color: var(--color-6);
+  font-size: 15px;
+  margin: 5px;
+}
+
+footer i:hover {
+  color: var(--color-4);
+}
 /* End of footer styles */
