@@ -33,12 +33,12 @@
               Categorías
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="./dinamic-page.php">Desarrollo Web</a>
+              <a class="dropdown-item" href="../../../index.php">Desarrollo Web</a>
               <a class="dropdown-item" href="../algorithms/algorithms.php">Algoritmos</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="../../contact.php">Contacto</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../../about-me.php">Acerca de mí</a>

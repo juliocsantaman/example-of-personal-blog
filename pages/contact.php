@@ -16,29 +16,29 @@
   <header>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">Julio Santaman</a>
+      <a class="navbar-brand" href="../index.php">Julio Santaman</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="../index.php">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Categorías
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Desarrollo Web</a>
-              <a class="dropdown-item" href="#">Algoritmos</a>
+              <a class="dropdown-item" href="../index.php">Desarrollo Web</a>
+              <a class="dropdown-item" href="./categories/algorithms/algorithms.php">Algoritmos</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="./contact.php">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Acerca de mí</a>
+            <a class="nav-link" href="./about-me.php">Acerca de mí</a>
           </li>
         </ul>
       </div>
