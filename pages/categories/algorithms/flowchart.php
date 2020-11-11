@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="../../../css/general-styles.css?v=<?php echo (rand()); ?>">
   <link rel="stylesheet" href="../../../css/algorithms.css?v=<?php echo (rand()); ?>">
   <link rel="stylesheet" href="../../../css/responsive.css?v=<?php echo (rand()); ?>">
-  <title>Diagrama de flujo</title>
+  <title>¿Qué es un diagrama de flujo?</title>
 </head>
 
 <body>

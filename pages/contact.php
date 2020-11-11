@@ -49,18 +49,18 @@
   <main>
     <div class="container">
       <h1>¡Contactanos!</h1>
-      <form>
+      <form action="../php/add_record.php" method="POST">
         <div class="form-group">
           <label for="name">Nombre</label>
-          <input type="text" class="form-control" id="name">
+          <input type="text" class="form-control" id="name" name="name" required="true">
         </div>
         <div class="form-group">
           <label for="email">Correo</label>
-          <input type="email" class="form-control" id="email">
+          <input type="email" class="form-control" id="email" name="email" required="true">
         </div>
         <div class="form-group">
           <label for="message">Mensaje</label>
-          <textarea class="form-control" id="message" rows="3"></textarea>
+          <textarea class="form-control" id="message" rows="3" name="message" required="true"></textarea>
         </div>
         <button type="submit" class="btn send">Enviar</button>
       </form>
